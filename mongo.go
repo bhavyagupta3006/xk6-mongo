@@ -131,7 +131,7 @@ func (c *Client) DeleteOne(database string, collection string, filter map[string
 	col := db.Collection(collection)
 	opts := options.Delete().SetHint(bson.D{{"_id", 1}})
 	log.Print("filter is ", filter)
-	result, err := col.DeleteOne(context.TODO(), filter, opts)
+	result, err := col.DeleteMany(context.TODO(), filter, opts)
 	if err != nil {
 		log.Fatal(err)
 	}
