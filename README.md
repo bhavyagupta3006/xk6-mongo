@@ -12,7 +12,7 @@ K6 extension to perform tests on mongo.
 - Supports deleting all documents for a specific filter.
 - Supports dropping a collection.
 
-# xk6-kubernetes
+# xk6-mongo
 A k6 extension for interacting with mongoDb while testing.
 
 ## Build
