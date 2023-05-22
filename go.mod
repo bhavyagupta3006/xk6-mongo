@@ -3,7 +3,7 @@ module github.com/bhavyagupta3006/xk6-mongo
 go 1.18
 
 require (
-	go.k6.io/k6 v0.38.3
+	go.k6.io/k6 v0.39.0
 	go.mongodb.org/mongo-driver v1.9.1
 )
 
