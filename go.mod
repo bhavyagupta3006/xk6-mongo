@@ -1,6 +1,6 @@
 module github.com/bhavyagupta3006/xk6-mongo
 
-go 1.18
+go 1.23
 
 require (
 	go.k6.io/k6 v0.39.0
